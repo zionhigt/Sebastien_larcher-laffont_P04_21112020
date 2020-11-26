@@ -622,6 +622,7 @@ a {
 {
     position: relative;
     z-index: 100;
+    color: #F9DECD!important;
 }
 .hero-bloc-text {
     font-size: 38px;
