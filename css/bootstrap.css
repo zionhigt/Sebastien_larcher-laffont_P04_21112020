@@ -1436,7 +1436,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto
 }
 
@@ -5082,7 +5082,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-collapse {
-    padding-right: 15px;
+    padding-right: 30px;
     padding-left: 15px;
     overflow-x: visible;
     -webkit-overflow-scrolling: touch;
