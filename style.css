@@ -640,7 +640,7 @@ footer nav.row
 
 footer nav
 {
-    margin: auto;
+    margin: 10px auto;
     padding: 0 50px;
 
 }
@@ -648,7 +648,7 @@ footer nav.row ul, .caption
 {
     width: 70%;
     padding: 0;
-    margin-left: auto;
+    margin: 15px auto;
 }
 
 footer nav
