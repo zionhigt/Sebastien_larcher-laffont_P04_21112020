@@ -328,9 +328,10 @@ a:hover {
 }
 
 .nav > li {
-    float: left;
+    /*float: left;*/
     margin-top: 4px;
     font-size: 16px;
+    max-width: 100px!important;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -621,9 +622,34 @@ a {
 
 .container {
     max-width: 1000px;
+    margin: 0 auto!important;
 }
 
 .row
+{
+    text-align: center;
+}
+
+footer nav.row
+{
+    margin: auto;
+    text-align: left;
+}
+
+footer nav
+{
+    margin: auto;
+    padding: 0 50px;
+
+}
+footer nav.row ul, .caption
+{
+    width: 70%;
+    padding: 0;
+    margin-left: auto;
+}
+
+footer nav
 {
     text-align: center;
 }
@@ -683,7 +709,10 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
     margin: auto auto auto auto;
 }
 
@@ -695,8 +724,8 @@ h2 {
 
 h3 {
     font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
+    /*text-transform: uppercase;*/
+    font-weight: 400;
     color: #333333!important;
 }
 
