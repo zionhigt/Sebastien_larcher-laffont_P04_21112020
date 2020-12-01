@@ -10,6 +10,8 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size:14px;
+
 }
 
 a,
@@ -616,7 +618,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color:#1C1C1C!important;
     z-index: 200;
 }
 
