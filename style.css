@@ -660,11 +660,17 @@ footer nav
     margin: auto;
     padding:0;
 }
+
 .title_bellow_paper
 {
     position: relative;
     z-index: 100;
     color: #F9DECD!important;
+}
+.coordonates
+{
+    font-size: 16px;
+    font-weight: bold;
 }
 .hero-bloc-text {
     font-size: 38px;
@@ -788,7 +794,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F9DECD!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
