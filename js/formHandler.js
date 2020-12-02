@@ -42,7 +42,7 @@ $(function()
 		 			{  
 						if($form.is('[success-msg]')) // Show Success Message
 						{
-							$form.append("<div id='form-alert'><div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('success-msg')+"</strong></div></div>");
+							$form.append("<div id='form-alert'><div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>Your message has been sent.</strong></div></div>");
 						}
 						else // Re-Direct
 						{
@@ -55,7 +55,7 @@ $(function()
 			   		{
 						if($('#form-alert').length == 0)
 						{
-							$form.append("<div id='form-alert'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('fail-msg')+"</strong></div></div>");
+							$form.append("<div id='form-alert'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>Sorry it seems that our mail server is not responding, Sorry for the inconvenience!</strong></div></div>");
 						}	
 			   		},
 		   		});
@@ -70,7 +70,7 @@ $(function()
 	 // Get Path to processor PHP file
 	 function getProcessorPath(form)
 	 {
-		var path = "localhost/P04_server/"+form.attr('id')+".php";
+		var path = "./includes/"+form.attr('id')+".php";
 		
 		if(form.attr('template-path')) // Check For Template path
 		{
