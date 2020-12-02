@@ -550,7 +550,8 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    bottom: 0;
+    margin-bottom: 3px;
 }
 
 .close-lightbox {
@@ -856,3 +857,7 @@ h4 {
     font-size: 14px;
 }
 
+.text-sm
+{
+    padding: 0 30px;
+}
