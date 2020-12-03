@@ -102,7 +102,8 @@ a:hover {
 }
 
 .b-parallax {
-    background-attachment: fixed;
+    background: center fixed;
+    background-size: cover;
 }
 
 .d-bloc {
