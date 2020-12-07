@@ -841,7 +841,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("../img/la-chouette-agence-banniere.webp");
+    background-image: url("../img/la-chouette-agence-banniere_medium.webp");
 }
 
 .bg-presentation {
@@ -861,4 +861,11 @@ h4 {
 .text-sm
 {
     padding: 0 30px;
+}
+
+@media all and (min-width: 767px)
+{
+    .bg-banniere {
+        background-image: url("../img/la-chouette-agence-banniere.webp");
+    }
 }
