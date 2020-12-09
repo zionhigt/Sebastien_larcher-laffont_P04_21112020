@@ -100,6 +100,10 @@ a:hover {
     background: url("../img/texture-paper.webp") rgba(0, 0, 0, 0.6);
     background-size: 280px 280px;
 }
+.lighten::before
+{
+    background-color: rgba(255, 255, 255, 0.1)!important;
+}
 
 .b-parallax {
     background: center fixed;
