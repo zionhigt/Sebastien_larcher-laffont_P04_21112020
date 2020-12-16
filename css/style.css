@@ -24,15 +24,6 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
-
 .bloc {
     width: 100%;
     clear: both;
@@ -168,7 +159,7 @@ a:hover {
 }
 
 .d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
+{
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
 }
@@ -189,13 +180,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover {
-    color: rgba(0, 0, 0, 1);
-}
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
@@ -328,7 +312,7 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    padding-right: 16px;
     float: right;
     z-index: 1;
 }
@@ -392,7 +376,7 @@ nav .caret {
 .dropdown-menu .dropmenu-flow-right {
     top: 100%;
     left: 0;
-    margin-left: -1px;
+    padding-left: 1px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
@@ -402,7 +386,8 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0!important;
+    margin: 6px 0 0 0!important;
+    padding-right: 5px;
     float: right;
 }
 
@@ -431,9 +416,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
 
 .btn-rd {
     border-radius: 40px;
@@ -513,7 +495,7 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    padding-left: 25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -693,7 +675,7 @@ footer nav
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -702,7 +684,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -714,7 +696,7 @@ p {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 12px 28px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -724,7 +706,7 @@ p {
     justify-content: space-between;
     max-width: 500px;
     width: 100%;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -742,7 +724,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -778,7 +760,7 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.9);
-    padding: 40px 40px 40px 40px;
+    padding: 40px;
 }
 
 .bold-link {

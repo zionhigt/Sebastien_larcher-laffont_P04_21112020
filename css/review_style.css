@@ -1,0 +1,29 @@
+.bloc {
+    width: 100%;
+    clear: both;
+    background: 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.bloc-lg {
+    padding: 100px 50px;
+}
+
+.bloc-md {
+    padding: 50px;
+}
+
+.bloc-sm {
+    padding: 20px 50px;
+}
+.navbar-toggle .icon-bar {
+	display: block;
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
+    height: 2px;
+    z-index: 200;
+}
