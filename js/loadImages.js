@@ -1,11 +1,1 @@
-function loadImages() {
-    var imgs = document.getElementsByTagName('img');
-    for (var i = 0; i < imgs.length; i++) {
-        if (imgs[i].getAttribute('data-src')) {
-            imgs[i].setAttribute('src', imgs[i].getAttribute('data-src'));
-        }
-    }
-}
- 
-if (window.addEventListener) { window.addEventListener("load", loadImages, false); }
-else if (window.attachEvent) { window.attachEvent("onload", loadImages); }
+function loadImages(){for(var t=document.getElementsByTagName("img"),e=0;e<t.length;e++)t[e].getAttribute("data-src")&&t[e].setAttribute("src",t[e].getAttribute("data-src"))}window.addEventListener?window.addEventListener("load",loadImages,!1):window.attachEvent&&window.attachEvent("onload",loadImages);
